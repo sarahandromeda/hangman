@@ -1,0 +1,56 @@
+main.rb file
+prompt New_Game or Load_Game
+New_Game if new
+Load_Game if load
+
+New_Game Class < Game
+  initialize new game with
+    random word
+    player name
+    incorrect guesses left
+    player score
+
+  game_over if guess left is 0
+  when game over,
+    display score
+    ask to play again
+
+  win_round point when word is guessed
+  when win_round,
+    display score
+    reset class
+
+Game Class 
+  display word/board
+
+  letter guess or save_game
+
+  compare guess with answer
+
+  play again
+
+module Save_Game
+  create save file with users name and date/time
+  serialize current New_Game class object
+    and save to save file created
+  puts 'Save completed.'
+  'press enter to exit'
+
+module Load_Game
+  open saves folder
+  if length > 1, list saves with index
+    prompt for selected save
+    unserialize selected save file
+  else
+    open save file, unserialize
+  
+
+  unserialize data 
+    & create new new_game class with data
+
+
+
+
+
+
+
