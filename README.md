@@ -1,2 +1,4 @@
-# hangman
-Console based hangman game with Save and Load features enabled. Coded in ruby.
+# Hangman
+
+Console based hangman game with Save and Load features enabled. 
+Coded in ruby.
